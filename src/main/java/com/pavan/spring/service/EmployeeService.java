@@ -13,5 +13,7 @@ public interface EmployeeService {
 	
 	public Employee createEmp(Employee emp);
 	public List<Employee> geEmployees();
+	public Employee getEmployee(int id);
+	
 
 }
